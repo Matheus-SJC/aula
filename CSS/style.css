@@ -8,14 +8,24 @@ body {
     background-color: black;
 }
 
-#aulas {
+.caixote-aulas {
     display: flex;
+    padding: 1rem;
+    gap: .6rem;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
     margin: 5rem;
     border: inset;
 }
 
-#primeira-aula {
+.aulas {
     font-size: 2rem;
+    color: #f1f1f1;
+}
+
+.conteudos {
+    font-size: 1rem;
     color: #f1f1f1;
 }
